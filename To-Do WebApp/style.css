@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: #222261;
+}
+
+header{
+    background-color: #f0f8ff;
+    padding: 1rem 7rem;
+}
+
+.hero-section{
+    display: flex;
+    margin-top: 3rem;
+    padding: 1rem 7rem;
+    gap: 20px;
+}
+
+.input-box{
+    border-radius: 5px;
+    background-color: #f0f8ff;
+    height: 20rem;
+    width: 17rem;
+    display: flex;
+    justify-content: center;
+}
+
+.box-items{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 15px;
+}
+
+.box-items textarea{
+    height: 65%;
+    padding: 5px 10px;
+    background: transparent;
+    border-radius: 5px;
+}
+
+.box-items input{
+    padding: 5px 10px;
+    background: transparent;
+    border: none;
+    border: 1px solid #808080;
+    border-radius: 5px;
+}
+
+#save-btn{
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: #08ad08;
+    color: #fff;
+    cursor: pointer;
+}
+
+.heading{
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid #fff;
+    width: 60vw;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    font-weight: 500;
+}
+
+.heading :nth-child(2){
+    margin-right: 10rem;
+}
+
+.content{
+    margin-top: 1rem;
+    background-color: #f0f8ff;
+    color: #000000;
+    width: 60vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.content :nth-child(2){
+    margin-right: 10rem;
+}
+
+#delete-btn{
+    color: #fff;
+    font-size: 20px;
+    background-color: #ff1818;
+    border: none;
+    height: 40px;
+    width: 37px;
+    border-radius: 5px;
+    cursor: pointer;
+}
