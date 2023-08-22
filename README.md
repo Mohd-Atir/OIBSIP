@@ -1,5 +1,5 @@
 # OIBSIP
-# About To-Do Web APp
+# About To-Do Web App
 --> I've created a simple 'To-Do Web Application' and visual appealing interface, where user can add their tasks and also can delete the task using this application.
 
 # Technology
